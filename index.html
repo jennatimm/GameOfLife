@@ -1,0 +1,59 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Project Title Goes Here</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./automata.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <canvas id="gameWorld" width="1024" height="654" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <div id="buttons">
+        <button id="start" class="sliders">
+            <h1> 
+                Start
+            </h1>
+        </button> 
+        <label for="speed">Fast</label>
+        <input type="range" id="speed" min="1" max="40" value="20" step="1">
+        <label for="speed">Slow</label>
+        <button id="pause" class="sliders">
+            <h1> 
+                Stop
+            </h1>
+        </button> 
+        <button id="reset" class="sliders">
+            <h1> 
+                Reset
+            </h1>
+        </button> 
+        <button id="random" class="sliders">
+            <h1> 
+                Random
+            </h1>
+        </button> 
+        <button id="death" class="sliders">
+            <h1> 
+                Quick Death
+            </h1>
+        </button> 
+        <button id="race" class="sliders">
+            <h1> 
+                Racing Vibes
+            </h1>
+        </button> 
+        <button id="lines" class="sliders">
+            <h1> 
+                Lines
+            </h1>
+        </button> 
+    </div>
+</body>
+</html>
+
